@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        button{
+            width: 200px;
+            color:azure;
+            background-color: blue;
+            height: 40px;
+            border: 2px solid blue;
+            border-radius: 6px;
+
+        }
+        button:hover{
+            background-color: blueviolet;
+        }
+    </style>
+
+</head>
+<body>
+    <p>click The button to Show time</p>
+    <button
+        onclick="document.getElementById('demo').innerHTML = Date()"
+    >
+        time
+    </button>
+<p id="demo"></p>
+
+</body>
+</html>
